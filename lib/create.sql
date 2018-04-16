@@ -2,8 +2,8 @@ CREATE TABLE projects (
   id INTEGER PRIMARY KEY,
   title TEXT,
   category TEXT,
-  funding_goal TEXT,
-  star_date,
+  funding_goal NUMERIC,
+  star_date TEXT,
   temperament TEXT,
   alive BOOLEAN
 );
