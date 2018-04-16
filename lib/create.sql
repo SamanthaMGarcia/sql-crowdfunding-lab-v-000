@@ -4,6 +4,5 @@ CREATE TABLE projects (
   category TEXT,
   funding_goal NUMERIC,
   start_date TEXT,
-  end_date TEXT,
-  alive BOOLEAN
+  end_date TEXT
 );
