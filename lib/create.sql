@@ -3,7 +3,7 @@ CREATE TABLE projects (
   title TEXT,
   category TEXT,
   funding_goal NUMERIC,
-  star_date TEXT,
-  temperament TEXT,
+  start_date TEXT,
+  end_date TEXT,
   alive BOOLEAN
 );
