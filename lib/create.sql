@@ -15,7 +15,7 @@ CREATE TABLE users (
 
 CREATE TABLE pledges (
   id INTEGER PRIMARY KEY,
-  title TEXT,
+  amount NUMERIC,
   category TEXT,
   funding_goal NUMERIC,
   start_date TEXT,
